@@ -19,3 +19,5 @@ Running this command in powershell, the identifiers can be confirmed
 4. Search for a hex value, search for the uniqueid shown in the powershell command above, in my case it is "5000000000000001", change this value to something else, like "5000000000000002" or even a random number.
 5. Flash the firmware with the flash tool.
 6. Problem should now be solved.
+
+The provided firmware file in this repository already have been corrected, it just need the "5000000000000001" id changed to something else, the firmware is confirmed supporting TRIM for SSD's
